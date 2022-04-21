@@ -1,4 +1,4 @@
-Scripts to download the GeoNet (New Zealand; https://www.geonet.org.nz/data/types/geodetic) GNSS east, north, and up component time series (for the stations listed in "sites".
+Scripts to download the GeoNet (New Zealand; https://www.geonet.org.nz/data/types/geodetic) GNSS east, north, and up component time series (for the stations listed in "sites", created for a test in my PhD research.
 
 When downloading the time series, the displacements caused by the 21 July 2013 Cook Strait, 16 August 2013 Lake Grassmere, and 20 January 2014 Eketahuna earthquakes are corrected for using the provided displacement files.
 
