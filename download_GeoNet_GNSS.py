@@ -44,6 +44,7 @@ def correct_offset(site, sitelist, coseis_vars, eq_time, data, component):
 		disp_index=which_disp.index[which_disp == True].tolist()
 		time_index = data[data['decimal_year'].gt(eq_time)].index
 		displacement=coseis_vars.loc[disp_index, [component]].values
+		#print(site, eq_time, displacement)
 		data.loc[time_index, [component]] = data.loc[time_index, [component]] - displacement
 	return data
 
